@@ -48,6 +48,11 @@
     "@graphql-codegen/typescript-operations": "^1.17.14",
     "@graphql-codegen/typescript-react-apollo": "^2.2.1",
     "@react-native-community/eslint-config": "^1.1.0",
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/commit-analyzer": "^8.0.1",
+    "@semantic-release/git": "^9.0.0",
+    "@semantic-release/npm": "^7.0.10",
+    "@semantic-release/release-notes-generator": "^9.0.1",
     "@types/jest": "^25.2.3",
     "@types/lodash": "^4.14.168",
     "@types/react-native": "^0.63.2",
@@ -58,6 +63,7 @@
     "jest": "^25.1.0",
     "metro-react-native-babel-preset": "^0.59.0",
     "react-test-renderer": "16.13.1",
+    "semantic-release": "^17.3.7",
     "typescript": "^3.8.3"
   },
   "jest": {
@@ -69,6 +75,23 @@
       "jsx",
       "json",
       "node"
+    ]
+  },
+  "release": {
+    "branches": [
+      "develop"
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      [
+        "@semantic-release/npm",
+        {
+          "npmPublish": false
+        }
+      ],
+      "@semantic-release/git"
     ]
   }
 }
