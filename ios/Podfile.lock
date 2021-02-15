@@ -43,6 +43,7 @@ PODS:
     - DoubleConversion
     - glog
   - glog (0.3.5)
+  - JitsiMeetSDK (2.6.0)
   - JWT (3.0.0-beta.12):
     - Base64 (~> 1.1.2)
   - libwebp (1.1.0):
@@ -325,6 +326,7 @@ DEPENDENCIES:
   - FBReactNativeSpec (from `../node_modules/react-native/Libraries/FBReactNativeSpec`)
   - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
   - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
+  - JitsiMeetSDK (= 2.6.0)
   - lottie-ios (from `../node_modules/lottie-ios`)
   - lottie-react-native (from `../node_modules/lottie-react-native`)
   - RCTRequired (from `../node_modules/react-native/Libraries/RCTRequired`)
@@ -367,6 +369,7 @@ SPEC REPOS:
     - AppCenterReactNativeShared
     - Base64
     - boost-for-react-native
+    - JitsiMeetSDK
     - JWT
     - libwebp
     - SDWebImage
@@ -473,6 +476,7 @@ SPEC CHECKSUMS:
   FBReactNativeSpec: f2c97f2529dd79c083355182cc158c9f98f4bd6e
   Folly: b73c3869541e86821df3c387eb0af5f65addfab4
   glog: 40a13f7840415b9a77023fbcae0f1e6f43192af3
+  JitsiMeetSDK: 1614ded06ae69ff132a68602cff5e9ff80a1450f
   JWT: 9b5c05abbcc1a0e69c3c91e1655b3387fc7e581d
   libwebp: 946cb3063cea9236285f7e9a8505d806d30e07f3
   lottie-ios: 3a3758ef5a008e762faec9c9d50a39842f26d124
@@ -512,6 +516,6 @@ SPEC CHECKSUMS:
   SSZipArchive: 62d4947b08730e4cda640473b0066d209ff033c9
   Yoga: 4bd86afe9883422a7c4028c00e34790f560923d6
 
-PODFILE CHECKSUM: 3a8f133e7d8a0c776e4b0c1851b79bb13ea5c154
+PODFILE CHECKSUM: 1e33c9895049aa4caaa580d0e55936e301fdff76
 
 COCOAPODS: 1.10.1
